@@ -143,13 +143,54 @@ border-radius:22px;
 box-shadow:0 10px 40px rgba(0,150,255,.25);
 }
 
+.social-links{
+
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+
+}
+
+
 .social-links a{
-display:inline-block;
-margin:10px;
-color:#6ea8ff;
+
+display:flex;
+align-items:center;
+gap:10px;
+
+padding:12px 22px;
+
+background:#1b1b1b;
+
+border-radius:30px;
+
+color:white;
+
 text-decoration:none;
-font-weight:bold;
+
+font-weight:600;
+
+border:1px solid #333;
+
 transition:.3s;
+
+}
+
+
+.social-links a i{
+
+font-size:20px;
+
+}
+
+
+.social-links a:hover{
+
+background:#333;
+
+transform:translateY(-4px);
+
 }
 
 .social-links a:hover{
